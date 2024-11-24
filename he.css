@@ -1,0 +1,37 @@
+/* Your existing styles here */
+
+/* Define print styles */
+@media print {
+    body {
+        background-color: #fff; /* Set background color for print */
+        color: #333; /* Text color for print */
+    }
+
+    header {
+        display: none; /* Hide header in print */
+    }
+
+    /* Customize print styles for sections, text, and background colors as needed */
+    section {
+        background-color: #fff;
+    }
+
+    h2 {
+        color: #1a73e8; /* Header text color for print */
+    }
+
+    input[type="text"],
+    textarea {
+        border-color: #ccc; /* Input field border color for print */
+    }
+
+    button {
+        display: none; /* Hide buttons in print */
+    }
+
+    /* Additional styles for the resume preview */
+    #resume-preview {
+        background-color: #fff;
+        border: 1px solid #ccc;
+    }
+}
